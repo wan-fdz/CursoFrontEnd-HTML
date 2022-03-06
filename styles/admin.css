@@ -26,3 +26,34 @@
 .tarjeta-menu p {
     margin: 0;
 }
+
+.table {
+    border-spacing: 0 15px;
+    border-collapse: separate;
+}
+
+.table tbody tr {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.table thead tr th, .table thead tr td, .table tbody tr th, .table tbody tr td {
+    vertical-align: middle;
+    border: none;
+}
+
+.active-circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.bg-success {
+    background-color: #28a745 !important;
+}
+
+.bg-danger {
+    background-color: #dc3545 !important;
+}

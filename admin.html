@@ -44,57 +44,263 @@
                 <div class="col-lg-4">
                     <nav class="site-navigation text-left mr-auto" role="navigation">
                         <ul class="site-menu ml-auto">
-                            <li><a href="admin.html" class="nav-link">Administrador</a></li>
                             <li><a href="admin.html#encargos" class="nav-link">Encargos</a></li>
+                            <li><a href="admin.html#inventario" class="nav-link">Inventario</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </div>
     </header>
-
+    <br>
+    <br>
     <main>
         <section id="encargos">
-            <h2 style="text-align: center;">PEDIDOS</h2>
-            <div class="contenedor-tarjetas">
-                <div class="tarjeta-menu">
-                    <div>
-                        <p>No. Pedido 13459</p>
-                        <p>Pastel de zanahora</p>
-                    </div>
-                </div>
-                <div class="tarjeta-menu">
-                    <div>
-                        <p>No. Pedido 13456</p>
-                        <p>Pastel de tres leches</p>
-                        <p>Chocolate</p>
-                        <p>Tarjeta de felicitacion</p>
-                    </div>
-                </div>
-                <div class="tarjeta-menu">
-                    <div>
-                        <p>No. Pedido 1987</p>
-                        <p>Cheesecake</p>
-                        <p>Moka</p>
-                        <p>Letrero de felicitacion</p>
-                    </div>
-                </div>
-                <div class="tarjeta-menu">
-                    <div>
-                        <p>No. Pedido 23456</p>
-                        <p>Cheesecake cajeta</p>
-                    </div>
-                </div>
-                <div class="tarjeta-menu">
-                    <div>
-                        <p>No. Pedido 23456</p>
-                        <p>Pastel mil hojas</p>
-                    </div>
+            <div class="pedidos">
+                <div class="text-center"><h1>Encargos</h1></div>
+                <br>
+                <div class="container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>No. Pedido</th>
+                                <th>Estatus</th>
+                                <th>Teléfono</th>
+                                <th>Contacto</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>180563</td>
+                                <td>
+                                    <span class="active-circle bg-success"></span>
+                                    En progreso
+                                </td>
+                                <td>+91 987654321</td>
+                                <td>
+                                    <button class="btn btn-primary btn-sm">Contactar</button>
+                                </td>
+                                <td>
+                                    <button class="btn btn-success btn-sm">Finalizar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>180563</td>
+                                <td>
+                                    <span class="active-circle bg-danger"></span>
+                                    Finalizado
+                                </td>
+                                <td>+91 987654321</td>
+                                <td>
+                                    <button class="btn btn-primary btn-sm">Contactar</button>
+                                </td>
+                                <td>
+                                    <button class="btn btn-secondary btn-sm">Editar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>180563</td>
+                                <td>
+                                    <span class="active-circle bg-success"></span>
+                                    En progreso
+                                </td>
+                                <td>+91 987654321</td>
+                                <td>
+                                    <button class="btn btn-primary btn-sm">Contactar</button>
+                                </td>
+                                <td>
+                                    <button class="btn btn-success btn-sm">Finalizar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>180563</td>
+                                <td>
+                                    <span class="active-circle bg-success"></span>
+                                    En progreso
+                                </td>
+                                <td>+91 987654321</td>
+                                <td>
+                                    <button class="btn btn-primary btn-sm">Contactar</button>
+                                </td>
+                                <td>
+                                    <button class="btn btn-success btn-sm">Finalizar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>180563</td>
+                                <td>
+                                    <span class="active-circle bg-danger"></span>
+                                    Finalizado
+                                </td>
+                                <td>+91 987654321</td>
+                                <td>
+                                    <button class="btn btn-primary btn-sm">Contactar</button>
+                                </td>
+                                <td>
+                                    <button class="btn btn-secondary btn-sm">Editar</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </section>
+        <br>
+        <hr>
+        <br>
         <section id="inventario">
+            <div class="inv">
+                <div class="text-center"><h1>Inventario</h1></div>
+                <br>
+                <div class="container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Producto</th>
+                                <th>Categoría</th>
+                                <th>Precio</th>
+                                <th>Stock</th>
+                                <th>Fecha de Surtido</th>
+                                <th>Estatus</th>
+                                <th>Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Harina</td>
+                                <td>Cocina</td>
+                                <td>$18 MXN</td>
+                                <td>10</td>
+                                <td>2022-02-20</td>
+                                <td>
+                                    <span class="active-circle bg-success"></span>
+                                    En stock
+                                </td>
+                                <td>
+                                    <button class="btn btn-danger btn-sm">Eliminar</button>
+                                    <button class="btn btn-info btn-sm">Editar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Chocolate</td>
+                                <td>Cocina</td>
+                                <td>$10 MXN</td>
+                                <td>50</td>
+                                <td>2022-02-10</td>
+                                <td>
+                                    <span class="active-circle bg-success"></span>
+                                    En stock
+                                </td>
+                                <td>
+                                    <button class="btn btn-danger btn-sm">Eliminar</button>
+                                    <button class="btn btn-info btn-sm">Editar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Huevo</td>
+                                <td>Cocina</td>
+                                <td>$50 MXN</td>
+                                <td>70</td>
+                                <td>2022-02-15</td>
+                                <td>
+                                    <span class="active-circle bg-success"></span>
+                                    En stock
+                                </td>
+                                <td>
+                                    <button class="btn btn-danger btn-sm">Eliminar</button>
+                                    <button class="btn btn-info btn-sm">Editar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Chispas de chocolate</td>
+                                <td>Cocina</td>
+                                <td>$5 MXN</td>
+                                <td>6</td>
+                                <td>2022-02-22</td>
+                                <td>
+                                    <span class="active-circle bg-success"></span>
+                                    En stock
+                                </td>
+                                <td>
+                                    <button class="btn btn-danger btn-sm">Eliminar</button>
+                                    <button class="btn btn-info btn-sm">Editar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Velas</td>
+                                <td>Decoración</td>
+                                <td>$15 MXN</td>
+                                <td>1</td>
+                                <td>2022-02-22</td>
+                                <td>
+                                    <span class="active-circle bg-danger"></span>
+                                    Sin stock
+                                </td>
+                                <td>
+                                    <button class="btn btn-danger btn-sm">Eliminar</button>
+                                    <button class="btn btn-info btn-sm">Editar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Leche</td>
+                                <td>Cocina</td>
+                                <td>$25 MXN</td>
+                                <td>15</td>
+                                <td>2022-02-22</td>
+                                <td>
+                                    <span class="active-circle bg-success"></span>
+                                    En stock
+                                </td>
+                                <td>
+                                    <button class="btn btn-danger btn-sm">Eliminar</button>
+                                    <button class="btn btn-info btn-sm">Editar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Vainilla</td>
+                                <td>Cocina</td>
+                                <td>$10 MXN</td>
+                                <td>50</td>
+                                <td>2022-02-26</td>
+                                <td>
+                                    <span class="active-circle bg-success"></span>
+                                    En stock
+                                </td>
+                                <td>
+                                    <button class="btn btn-danger btn-sm">Eliminar</button>
+                                    <button class="btn btn-info btn-sm">Editar</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Frambuesa</td>
+                                <td>Cocina</td>
+                                <td>$10 MXN</td>
+                                <td>30</td>
+                                <td>2022-02-26</td>
+                                <td>
+                                    <span class="active-circle bg-success"></span>
+                                    En stock
+                                </td>
+                                <td>
+                                    <button class="btn btn-danger btn-sm">Eliminar</button>
+                                    <button class="btn btn-info btn-sm">Editar</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
+            </div>
         </section>
     </main>
     <footer>
