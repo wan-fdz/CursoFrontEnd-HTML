@@ -1,0 +1,15 @@
+.form-frame {
+    margin: auto;
+    width: 80%;
+}
+
+form {
+    margin: 0 auto;
+    border: 1.5px solid lightsteelblue;
+    border-radius: 25px;
+}
+
+.info-personal {
+    margin: auto;
+    justify-content: space-between;
+}

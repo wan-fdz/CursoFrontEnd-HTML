@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/inicio.css">
     <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/pedidos.css">
 
     <!-- jQuery and JS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -77,32 +78,139 @@
                 <div class="main-menu row align-items-center position-relative">
                     <div class="col-lg-4 text-center">
                         <figure class="cakes">
-                            <img src="images/menu_cheesecake.jpg" alt="cheesecake" height="150px">
-                            <figcaption></figcaption>
+                            <img src="images/menu_cheesecake_crop.jpg" alt="cheesecake" height="150px">
+                            <figcaption>Cheesecake <br> $150 MXN</figcaption>
                         </figure>
                     </div>
                     <div class="col-lg-4 text-center">
                         <figure class="cakes">
-                            <img src="images/menu_chocolate.jpg" alt="chocolate" height="150px">
-                            <figcaption></figcaption>
+                            <img src="images/menu_chocolate_crop.jpg" alt="chocolate" height="150px">
+                            <figcaption>Pastel de Chocolate <br> $170 MXN</figcaption>
                         </figure>
                     </div>
-                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4 text-center">
+                        <figure class="cakes">
+                            <img src="images/menu_vainilla_crop.jpg" alt="vainilla" height="150px">
+                            <figcaption> Pastel de Vainilla <br> $150 MXN</figcaption>
+                        </figure>
+                    </div>
                 </div>
-                <div class="row align-items-center position-relative">
-                    <div class="col-lg-4"></div>
-                    <div class="col-lg-4"></div>
-                    <div class="col-lg-4"></div>
+                <br> <br>
+                <div class="main-menu row align-items-center position-relative">
+                    <div class="col-lg-4 text-center">
+                        <figure class="cakes">
+                            <img src="images/menu_tres_leches_crop.jpg" alt="tres_leches" height="150px">
+                            <figcaption>Pastel de Tres Leches <br> $200 MXN</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <figure class="cakes">
+                            <img src="images/menu_zanahoria_crop.jpg" alt="zanahoria" height="150px">
+                            <figcaption>Pastel de Zanahoria <br> $150 MXN</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <figure class="cakes">
+                            <img src="images/menu_frambuesa_crop.jpg" alt="frambuesa" height="150px">
+                            <figcaption>Pastel de Frambuesa <br> $150 MXN</figcaption>
+                        </figure>
+                    </div>
                 </div>
             </div>
         </section>
         <br>
         <section id="pedidos">
-            <h2>¡Haz tu pedido!</h2>
-            <p>sdlkjgflksjfglkafdjglkajdlfkgjlsdkfgjlksfdjlkbmfdbkdmfbkmg;lkhmlkamfdg;lsmdglm</p>
-            <form action="">
-                
-            </form>
+            <div class="orden">
+                <div class="text-center"><h1>¡Haz tu pedido!</h1></div>
+                <br>
+                <div class="form-frame row align-items-center justify-content-center position-relative">
+                    <div class="col-lg-9">
+                        <form action="">
+                            <br>
+                            <h2 class="text-center">Pide tu pastel decorado en línea</h2>
+                            <br>
+                            <div class="info-personal">
+                                <div class="row align-items-center justify-content-center position-relative">
+                                    <div class="col-lg-3 text-center">
+                                        <label for="nombre">Nombre</label>
+                                        <input type="text" id="name">
+                                    </div>
+                                    <div class="col-lg-3 text-center">
+                                        <label for="apellido_paterno">Apellido paterno</label>
+                                        <input type="text" id="apellido_paterno">
+                                    </div>
+                                    <div class="col-lg-3 text-center">
+                                        <label for="apellido_materno">Apellido materno</label>
+                                        <input type="text" id="apellido_materno">
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                                <div class="row align-items-center justify-content-center position-relative">
+                                    <div class="col-lg-3 text-center">
+                                        <label for="telefono">Teléfono de casa</label>
+                                        <input type="text" id="telefono">
+                                    </div>
+                                    <div class="col-lg-3 text-center">
+                                        <label for="celular">Celular</label>
+                                        <input type="text" id="celular">
+                                    </div>
+                                    <div class="col-lg-3 text-center">
+                                        <label for="correo-electronico">Correo electrónico</label>
+                                        <input type="text" id="correo">
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="text-center"><h3 >Elige tu pastel</h3></div>
+                            <br>
+                            <div class="pasteles">
+                                <div class="row align-items-center justify-content-center position-relative">
+                                    <div class="col-lg-3 text-left">
+                                        <label><input type="checkbox" id="cbox1" value="pastel1"> Cheesecake  $150 MXN</label><br>
+                                        <label><input type="checkbox" id="cbox2" value="pastel2"> Pastel de Tres Leches  $200 MXN</label><br>
+                                    </div>
+                                    <div class="col-lg-3 text-center">
+                                        <label><input type="checkbox" id="cbox3" value="pastel3"> Pastel de Chocholate  $170 MXN</label><br>
+                                        <label><input type="checkbox" id="cbox4" value="pastel4"> Pastel de Tres Leches  $200 MXN</label><br>
+                                    </div>
+                                    <div class="col-lg-3 text-left">
+                                        <label><input type="checkbox" id="cbox5" value="pastel5"> Pastel de Vainilla  $150 MXN</label><br>
+                                        <label><input type="checkbox" id="cbox6" value="pastel6"> Pastel de Frambuesa  $150 MXN</label><br>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <p style="font-weight: bold; margin: 30px 0;">O ARMA TU PASATEL A TU GUSTO</p>
+                            <div class="pastel-personalizado">
+                                <div>
+                                    <p>Selecciona el tipo de pastel</p>
+                                    <label><input type="checkbox" id="cbox1" value="pastel1"> CHEESECAKE</label><br>
+                                    <label><input type="checkbox" id="cbox2" value="pastel2"> TRES LECHES</label><br>
+                                </div>
+                                <div>
+                                    <p>Selecciona el sabor</p>
+                                    <label><input type="checkbox" id="cbox1" value="pastel1"> CHOCOLATE</label><br>
+                                    <label><input type="checkbox" id="cbox2" value="pastel2"> FRESA</label><br>
+                                    <label><input type="checkbox" id="cbox2" value="pastel2"> ZARZAMORA</label><br>
+                                    <label><input type="checkbox" id="cbox2" value="pastel2"> OREO</label><br>
+                                    <label><input type="checkbox" id="cbox2" value="pastel2"> CAJETA</label><br>
+                                    <label><input type="checkbox" id="cbox2" value="pastel2"> MOKA</label><br>
+                                </div>
+                                <div>
+                                    <p>Sellecciona algun adorno</p>
+                                    <label><input type="checkbox" id="cbox1" value="pastel1"> TAREJETA DE FELICITACIÓN</label><br>
+                                    <label><input type="checkbox" id="cbox2" value="pastel2"> MOÑO</label><br>
+                                    <label><input type="checkbox" id="cbox2" value="pastel2"> LETRERO DE FELICITACIÓN</label><br>
+                                </div>
+                            </div>
+                            <button class="btn-enviar" name="button">Enviar</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
         </section>
         
     </main>
@@ -118,7 +226,5 @@
             </div>
         </div>
     </footer>
-
-    <script src="js/main.js"></script>
 </body>
 </html>
