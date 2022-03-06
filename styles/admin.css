@@ -1,0 +1,28 @@
+.contenedor-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta-menu {
+    height: 240px;
+    width: 350px;
+    background-color: #e5f6f0;
+    font-weight: 600;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.tarjeta-menu:hover {
+    height: 260px;
+    width: 370px;
+}
+
+.tarjeta-menu p {
+    margin: 0;
+}
