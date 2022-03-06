@@ -1,0 +1,24 @@
+.main-menu {
+    width: 80%;
+}
+
+.cakes {
+    display: inline-block; 
+}
+
+.cakes img{
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption{
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    width: 100%;
+    padding: 8px;
+}
+
+span{
+    color: brown;
+    font-weight: bold;
+}

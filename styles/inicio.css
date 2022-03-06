@@ -1,0 +1,42 @@
+.hero {
+    width: 100%;
+    height: 500px;
+}
+
+.hero .hero-img {
+    background-image: url('../images/inicio_hero_bg.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero .hero-img::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.30);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.hero-text {
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.hero .hero-img .hero-text h1 {
+    font-size: 80px;
+    font-weight: 300;
+}
+
+.hero .hero-img .hero-text p {
+    font-size: 40px;
+}

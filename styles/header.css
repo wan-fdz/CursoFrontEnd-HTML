@@ -1,0 +1,55 @@
+.site-navbar {
+    margin-bottom: 0px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 5;
+}
+
+.site-navbar .site-logo {
+    margin: 0;
+    padding: 0;
+}
+
+.site-navbar .site-navigation .site-menu {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0; 
+}
+
+.site-navbar .site-navigation .site-menu .active {
+    color: rgb(0, 0, 0) !important; 
+}
+
+.site-navbar .site-navigation .site-menu a {
+    font-size: 25px;
+    text-decoration: none !important;
+    display: inline-block; 
+}
+.site-navbar .site-navigation .site-menu > li {
+    display: inline-block; 
+}
+
+.site-navbar .site-navigation .site-menu > li > a {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px 0px;
+    color: #4b4848 !important;
+    display: inline-block;
+    text-decoration: none; 
+}
+
+.nav-link:hover {
+    text-decoration: solid;
+    color: #d400db; 
+}
+
+.site-navbar .site-navigation .site-menu > li > a:hover {
+    text-decoration: overline !important;
+    color: #000000 !important; 
+}
+
+.site-navbar .site-navigation .site-menu > li.active > a {
+    color: rgb(51, 139, 255) !important; 
+}
+
